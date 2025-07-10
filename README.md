@@ -49,23 +49,14 @@ pip install pandas mlxtend
 ## Screenshots  
 
 ### 1. Imports & Data Simulation  
-```text
-
-```
 
 ![Imports & Data Simulation](Screenshots/imports.png)
 
 ### 2. One‑Hot Encoding  
-```text
-
-```
 
 ![Encoding](Screenshots/encoding.png)
 
 ### 3. Rules Discovered  
-```text
-
-```
 
 ![Rules](Screenshots/rules.png)
 
@@ -85,12 +76,12 @@ After mining with support ≥ 0.30 and confidence ≥ 0.70, two example rule
 ## Rule Interpretation  
 
 **Rule:** `{Cheese} → {Bread}`  
-- **Support = 0.35**  
+- **Support = 0.3**  
   – 30% of all transactions contain both Cheese and Bread.  
 - **Confidence = 0.749**  
   – 74.9% of transactions that include Cheese also include Bread.  
-- **Lift = 1.20**  
-  – Customers who buy Cheese are 1.2× more likely than average to buy Bread.
+- **Lift = 1.363**  
+  – Customers who buy Cheese are 1.36× more likely than average to buy Bread.
 
 **Plain English:**  
 > “In our simulated data, 74.9% of shopping baskets that include Cheese also include Bread.  
