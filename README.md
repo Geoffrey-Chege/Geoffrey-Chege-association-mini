@@ -115,7 +115,7 @@ print(rules[['antecedents','consequents','support','confidence']])
 
 ### Running the Notebook  
 ```bash
-jupyter notebook association_rules.ipynb
+jupyter notebook association.ipynb
 ```
 
 ---
